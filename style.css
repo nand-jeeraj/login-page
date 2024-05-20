@@ -1,0 +1,116 @@
+.box
+{
+    width: 100%;
+    min-height: 85vh;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: cornsilk;
+    
+    
+}
+
+.wrapper{
+    background-color:crimson;
+    margin-top: 90px;
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+
+}
+
+.h2{
+    width: 90px;
+    margin-left:172px;
+    color: white;
+    margin-top: 50px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.einput{
+width: 400px;
+height: 50px;
+margin-left: 45px;
+border-radius:  10px;
+
+
+
+}
+
+.pinput{
+    width: 400px;
+    height: 50px;
+    margin-left: 45px;
+    margin-top: 50px;
+    border-radius: 10px;
+    
+    
+    
+    
+    }
+
+.btn-login{
+    width: 300px;
+    height: 40px;
+    margin-top: 45px;
+    margin-left: 100px;
+    border-radius: 5px ;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:cornsilk;
+    color: crimson;
+
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: crimson;
+    margin-top: -8px;
+    margin-left: -8px;
+  }
+  
+.li {
+    float: left;
+  }
+  
+.a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.li a:hover {
+    background-color: #111;
+  }
+
+.dont{
+    margin-left: 112px;
+    margin-top: 44px;
+    color: white;
+}
+
+.register{
+    position: absolute;
+    margin-top: -34px;
+    margin-left: 266px;
+    color: white;
+    text-decoration:none;
+}
+
+
+@media screen (max-width: 400px)
+{
+    .form{
+        padding: 15px;
+
+    }
+}
